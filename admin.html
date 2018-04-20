@@ -9,5 +9,9 @@
     <div class="entry">
         <p class="entrytext"> {{e['text']}} </p>
         <p class="metadata"> by {{e['author']}} on {{e['timestamp']}} </p>
+        <form action="/delete">
+          <input type="submit" name="X">
+          <input type="hidden" name="id" value={{}}>
+        </form>
     </div>
 {% endfor %}
