@@ -35,3 +35,6 @@ def add_entry(name, text):
         f.close()
     except:
         print("ERROR! Could not write entries to file.")
+
+def delete_entry():
+    pass
